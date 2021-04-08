@@ -13,22 +13,22 @@
     <link rel="stylesheet" href="style.css">
   </head>
   
+
   <body>
   
-    <label class="input-wrap">
+    <form class="input-wrap" action="/thankyoupage.html">
       <h1>Say Hello!</h1>
   
       <label for="username"><small>Your Name</small>
-        <input id="username" type="text" required class="border" placeholder="Enter your name"></input>
+        <input id="username" type="text" class="border" required placeholder="Enter your name" minlength="3" maxlength="30"></input>
       </label>
   
-  
       <label for="email"><small>Email</small>
-        <input id="email" type="email" required class="border" placeholder="Enter your email address">
+        <input id="email" type="email" class="border" required placeholder="Enter your email address">
       </label>
   
       <label for="services"><small>Needed Services</small>
-        <select id="service" class="border" name="service" id="">
+        <select id="service" class="border" name="service" id="" required>
           <option value="choose">Choose Services</option>
           <option value="profile">Profile Website</option>
           <option value="portfolio">Portfolio Website</option>
@@ -42,7 +42,7 @@
   
   
       <label for="budget"><small>Budget</small>
-        <select id="budget" class="border" name="city" id="">
+        <select id="budget" class="border" name="city" id="" required>
           <option value="profile">Select Budget</option>
           <option value="profile">£500-£1000</option>
           <option value="portfolio">£1000-£2000</option>
@@ -62,10 +62,10 @@
       <br>
   
       <label for="">
-        <input class="border submit" type="submit">
+         <input class="border submit" type="submit" value="submit">
       </label>
   
-    </label>
+    </form>
   
   </body>
   </html>
