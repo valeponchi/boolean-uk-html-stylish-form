@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>input</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+  
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  
+  <body>
+  
+    <label class="input-wrap">
+      <h1>Say Hello!</h1>
+  
+      <label for="username"><small>Your Name</small>
+        <input id="username" type="text" required class="border" placeholder="Enter your name"></input>
+      </label>
+  
+  
+      <label for="email"><small>Email</small>
+        <input id="email" type="email" required class="border" placeholder="Enter your email address">
+      </label>
+  
+      <label for="services"><small>Needed Services</small>
+        <select id="service" class="border" name="service" id="">
+          <option value="choose">Choose Services</option>
+          <option value="profile">Profile Website</option>
+          <option value="portfolio">Portfolio Website</option>
+          <option value="app">App</option>
+          <option value="e-comm">e-commerce Website</option>
+          <option value="frontend">Front-End</option>
+          <option value="backend">Back-End</option>
+          <option value="fullstack">Fullstack</option>
+        </select>
+      </label>
+  
+  
+      <label for="budget"><small>Budget</small>
+        <select id="budget" class="border" name="city" id="">
+          <option value="profile">Select Budget</option>
+          <option value="profile">£500-£1000</option>
+          <option value="portfolio">£1000-£2000</option>
+          <option value="app">£2000-£3000</option>
+          <option value="e-c">£3000+</option>
+        </select>
+      </label>
+      
+  
+      <br>
+  
+      <label for="msg"><small>Message</small>
+       <textarea  name="textarea" id="msg" cols="30" rows="6" placeholder="Your message here..."></textarea>
+      </label>
+  
+  
+      <br>
+  
+      <label for="">
+        <input class="border submit" type="submit">
+      </label>
+  
+    </label>
+  
+  </body>
+  </html>
